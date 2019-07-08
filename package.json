@@ -1,0 +1,100 @@
+{
+  "name": "lunatic-editor",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/slate": "^0.44.12",
+    "antd": "^3.20.1",
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-flowtype": "^3.11.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "flow-bin": "^0.102.0",
+    "github-markdown-css": "^3.0.1",
+    "husky": "^3.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "jest": "^24.8.0",
+    "js-beautify": "^1.10.0",
+    "lerna": "^3.15.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^9.1.0",
+    "markup-it": "^11.1.6",
+    "prettier": "^1.18.2",
+    "prismjs": "^1.16.0",
+    "raw-loader": "^3.0.0",
+    "react": "^16.8.6",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "read-metadata": "^1.0.0",
+    "regenerator-runtime": "^0.13.2",
+    "slate": "^0.47.4",
+    "slate-edit-blockquote": "^0.6.1",
+    "slate-edit-code": "^0.15.5",
+    "slate-edit-list": "^0.12.1",
+    "slate-edit-table": "^0.18.0",
+    "slate-html-serializer": "^0.8.5",
+    "slate-hyperscript": "^0.13.3",
+    "slate-prism": "^0.5.0",
+    "slate-react": "^0.22.4",
+    "slate-simulator": "^0.4.67",
+    "slate-trailing-block": "^0.5.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.3.2"
+  },
+  "description": "A rich text editor using Slate framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunaticYoung/slate-editor.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "lunatic young",
+    "email": "luyangkht@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunaticYoung/slate-editor/issues"
+  },
+  "homepage": "https://github.com/lunaticYoung/slate-editor#readme",
+  "dependencies": {
+    "lodash.omit": "^4.5.0",
+    "lodash.xor": "^4.5.0"
+  }
+}

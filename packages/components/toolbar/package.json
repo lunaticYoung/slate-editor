@@ -1,0 +1,42 @@
+{
+  "name": "slate-toolbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@young/slate-helper-block-list": "^1.0.0",
+    "@young/slate-helper-block-quote": "^1.0.0",
+    "@young/slate-icon-align": "^1.0.0",
+    "@young/slate-icon-blockquote": "^1.0.0",
+    "@young/slate-icon-clean": "^1.0.0",
+    "@young/slate-icon-code": "^1.0.0",
+    "@young/slate-icon-emoji": "^1.0.0",
+    "@young/slate-icon-fontbgcolor": "^1.0.0",
+    "@young/slate-icon-fontcolor": "^1.0.0",
+    "@young/slate-icon-header": "^1.0.0",
+    "@young/slate-icon-link": "^1.0.0",
+    "@young/slate-icon-list": "^1.0.0",
+    "@young/slate-icon-strikethrough": "^1.0.0",
+    "@young/slate-icon-underline": "^1.0.0",
+    "@young/slate-icon-undo": "^1.0.0",
+    "antd": "^3.20.1",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x"
+  },
+  "dependencies": {
+    "@young/slate-icon-bold": "^1.0.0",
+    "@young/slate-icon-italic": "^1.0.0",
+    "@young/slate-icon-shared": "^1.0.0",
+    "@young/slate-icon-underline": "^1.0.0",
+    "get-selection-range": "^0.1.0",
+    "is-hotkey": "^0.1.4",
+    "react-window-detect-dimensions": "^0.2.0",
+    "styled-components": "^4.3.2"
+  }
+}

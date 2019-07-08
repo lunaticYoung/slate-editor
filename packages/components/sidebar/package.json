@@ -1,0 +1,30 @@
+{
+  "name": "slate-sidebar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@young/slate-helper-block-list": "^1.0.0",
+    "@young/slate-helper-block-quote": "^1.0.0",
+    "@young/slate-icon-header": "^1.0.0",
+    "@young/slate-icon-list": "^1.0.0",
+    "@young/slate-icon-shared": "^1.0.0",
+    "antd": ">=3.20.1",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x",
+    "slate": "^0.47.1",
+    "slate-edit-blockquote": "^0.0.0",
+    "slate-edit-list": "^0.11.2",
+    "slate-react": "^0.12.4"
+  },
+  "dependencies": {
+    "get-selection-range": "^0.1.0",
+    "styled-components": "^4.3.2"
+  }
+}

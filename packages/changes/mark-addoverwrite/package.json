@@ -1,0 +1,19 @@
+{
+  "name": "@young/slate-helper-mark-addoverwrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@young/slate-util-get": "^1.0.0",
+    "@young/slate-util-what": "^1.0.0"
+  }
+}

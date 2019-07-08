@@ -1,0 +1,15 @@
+{
+  "name": "@young/slate-helper-block-cleardatabykey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "immutable": ">=3.8.2"
+  }
+}
