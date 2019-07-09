@@ -1,0 +1,73 @@
+{
+  "name": "lunatic-editor",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "editor",
+    "slate",
+    "slate-editor"
+  ],
+  "peerDependencies": {
+    "antd": "^3.20.1",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x",
+    "slate": "^0.33.0",
+    "slate-react": "^0.12.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@young/slate-constant": "^1.0.0",
+    "@young/slate-editor-help": "^1.0.0",
+    "@young/slate-helper-block-list": "^1.0.0",
+    "@young/slate-helper-block-quote": "^1.0.0",
+    "@young/slate-icon-align": "^1.0.0",
+    "@young/slate-icon-blockquote": "^1.0.0",
+    "@young/slate-icon-bold": "^1.0.0",
+    "@young/slate-icon-clean": "^1.0.0",
+    "@young/slate-icon-code": "^1.0.0",
+    "@young/slate-icon-codeblock": "^1.0.0",
+    "@young/slate-icon-fontbgcolor": "^1.0.0",
+    "@young/slate-icon-fontcolor": "^1.0.0",
+    "@young/slate-icon-header": "^1.0.0",
+    "@young/slate-icon-hr": "^1.0.0",
+    "@young/slate-icon-image": "^1.0.0",
+    "@young/slate-icon-indent": "^1.0.0",
+    "@young/slate-icon-italic": "^1.0.0",
+    "@young/slate-icon-link": "^1.0.0",
+    "@young/slate-icon-list": "^1.0.0",
+    "@young/slate-icon-redo": "^1.0.0",
+    "@young/slate-icon-strikethrough": "^1.0.0",
+    "@young/slate-icon-table": "^1.0.0",
+    "@young/slate-icon-underline": "^1.0.0",
+    "@young/slate-icon-undo": "^1.0.0",
+    "@young/slate-icon-video": "^1.0.0",
+    "@young/slate-paste-html-plugin": "^1.0.0",
+    "github-markdown-css": "^3.0.1",
+    "prismjs": "^1.16.0",
+    "slate-edit-blockquote": "^0.6.1",
+    "slate-edit-code": "^0.15.5",
+    "slate-edit-list": "^0.12.1",
+    "slate-prism": "^0.5.0",
+    "slate-sidebar": "^1.0.0",
+    "slate-toolbar": "^1.0.0",
+    "slate-trailing-block": "^0.5.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.0.0",
+    "enzyme": "^3.10.0",
+    "flow-bin": "^0.102.0",
+    "flow-copy-source": "^2.0.7",
+    "prettier": "^1.18.2",
+    "raw-loader": "^3.0.0",
+    "react-addons-test-utils": "^15.6.2"
+  }
+}

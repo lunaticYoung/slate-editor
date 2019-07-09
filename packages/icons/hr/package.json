@@ -1,0 +1,25 @@
+{
+  "name": "@young/slate-icon-hr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@young/slate-constant": ">=^1.0.0",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x",
+    "slate": ">=^0.47.1"
+  },
+  "dependencies": {
+    "@young/slate-editor-renderer": "^1.0.0",
+    "@young/slate-icon-shared": "^1.0.0"
+  }
+}
