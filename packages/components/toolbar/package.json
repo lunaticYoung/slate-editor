@@ -1,6 +1,6 @@
 {
   "name": "slate-toolbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "files": [
     "lib"
@@ -31,10 +31,10 @@
     "react-dom": "^0.14.0 || ^15.0.0 || 16.x"
   },
   "dependencies": {
-    "@young/slate-icon-bold": "^1.0.0",
-    "@young/slate-icon-italic": "^1.0.0",
-    "@young/slate-icon-shared": "^1.0.0",
-    "@young/slate-icon-underline": "^1.0.0",
+    "@young/slate-icon-bold": "^1.0.1",
+    "@young/slate-icon-italic": "^1.0.1",
+    "@young/slate-icon-shared": "^1.0.1",
+    "@young/slate-icon-underline": "^1.0.1",
     "get-selection-range": "^0.1.0",
     "is-hotkey": "^0.1.4",
     "react-window-detect-dimensions": "^0.2.0",

@@ -1,6 +1,6 @@
 {
   "name": "@young/slate-icon-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {},
@@ -17,8 +17,8 @@
     "slate": ">=^0.47.1"
   },
   "dependencies": {
-    "@young/slate-editor-renderer": "^1.0.0",
-    "@young/slate-icon-shared": "^1.0.0",
+    "@young/slate-editor-renderer": "^1.0.1",
+    "@young/slate-icon-shared": "^1.0.1",
     "emoji-mart-picker": "^0.2.3"
   },
   "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"

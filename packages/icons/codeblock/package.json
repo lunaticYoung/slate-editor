@@ -1,6 +1,6 @@
 {
   "name": "@young/slate-icon-codeblock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {},
@@ -19,9 +19,9 @@
     "slate-edit-code": "^0.15.0"
   },
   "dependencies": {
-    "@young/slate-editor-renderer": "^1.0.0",
-    "@young/slate-icon-shared": "^1.0.0",
-    "@young/slate-util-have": "^1.0.0",
+    "@young/slate-editor-renderer": "^1.0.1",
+    "@young/slate-icon-shared": "^1.0.1",
+    "@young/slate-util-have": "^1.0.1",
     "prismjs": "^1.16.0"
   },
   "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"

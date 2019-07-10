@@ -1,6 +1,6 @@
 {
   "name": "@young/slate-icon-blockquote",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {},
@@ -14,9 +14,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@young/slate-editor-renderer": "^1.0.0",
-    "@young/slate-helper-block-quote": "^1.0.0",
-    "@young/slate-icon-shared": "^1.0.0",
+    "@young/slate-editor-renderer": "^1.0.1",
+    "@young/slate-helper-block-quote": "^1.0.1",
+    "@young/slate-icon-shared": "^1.0.1",
     "is-hotkey": "^0.1.2",
     "lodash.omit": "^4.5.0",
     "slate-edit-blockquote": "^0.6.1"

@@ -1,6 +1,6 @@
 {
   "name": "@young/slate-icon-fontbgcolor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {},
@@ -17,11 +17,11 @@
     "slate": ">=^0.47.1"
   },
   "dependencies": {
-    "@young/slate-editor-renderer": "^1.0.0",
-    "@young/slate-helper-mark-addoverwrite": "^1.0.0",
-    "@young/slate-icon-shared": "^1.0.0",
-    "@young/slate-util-get": "^1.0.0",
-    "@young/slate-util-have": "^1.0.0",
+    "@young/slate-editor-renderer": "^1.0.1",
+    "@young/slate-helper-mark-addoverwrite": "^1.0.1",
+    "@young/slate-icon-shared": "^1.0.1",
+    "@young/slate-util-get": "^1.0.1",
+    "@young/slate-util-have": "^1.0.1",
     "hex-rgb": "^4.1.0",
     "lodash.omit": "^4.5.0",
     "rc-color-picker": "^1.2.6"

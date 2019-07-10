@@ -1,6 +1,6 @@
 {
   "name": "@young/slate-icon-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {},
@@ -18,9 +18,9 @@
     "slate": ">=^0.47.1"
   },
   "dependencies": {
-    "@young/image-upload": "^1.0.0",
-    "@young/slate-editor-renderer": "^1.0.0",
-    "@young/slate-icon-shared": "^1.0.0",
+    "@young/image-upload": "^1.0.1",
+    "@young/slate-editor-renderer": "^1.0.1",
+    "@young/slate-icon-shared": "^1.0.1",
     "react-loading-image": "^0.5.0",
     "styled-components": "^4.3.2"
   },

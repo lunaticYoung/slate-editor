@@ -1,6 +1,6 @@
 {
   "name": "@young/slate-paste-html-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {},
@@ -10,7 +10,7 @@
     "slate": ">=0.47.1"
   },
   "dependencies": {
-    "@young/slate-editor-html": "^1.0.0"
+    "@young/slate-editor-html": "^1.0.1"
   },
   "publishConfig": {
     "access": "public"
