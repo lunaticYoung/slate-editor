@@ -2,7 +2,10 @@
   "name": "@young/image-upload",
   "version": "1.0.0",
   "description": "image upload",
-  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
   "scripts": {
     "build:flow": "flow-copy-source -v -i '**/test/**' src lib",
     "lint": "./node_modules/.bin/prettier --write ./src/**/*.js && eslint src",
