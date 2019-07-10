@@ -6,9 +6,7 @@
     "lib"
   ],
   "main": "lib/index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",

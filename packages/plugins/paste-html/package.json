@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0 || 16.x",
     "react-dom": "^0.14.0 || ^15.0.0 || 16.x",

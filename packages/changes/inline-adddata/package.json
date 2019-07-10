@@ -2,10 +2,8 @@
   "name": "@young/slate-helper-inline-adddata",
   "version": "1.0.0",
   "description": "",
- "main": "lib/index.js",
-  "scripts": {
-    
-  },
+  "main": "lib/index.js",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
