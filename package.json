@@ -63,12 +63,12 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint .",
-    "validate": "npm ls",
     "build": "yarn run clear && gulp",
     "clear": "lerna exec --parallel -- rm -rf lib",
     "start": "npm run dev",
-    "dev": ""
+    "dev": "",
+    "lint": "eslint .",
+    "validate": "npm ls"
   },
   "husky": {
     "hooks": {
@@ -100,7 +100,7 @@
   "homepage": "https://github.com/lunaticYoung/slate-editor#readme",
   "dependencies": {
     "child_process": "^1.0.2",
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.0",
     "gulp-babel": "^8.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1",
@@ -108,5 +108,10 @@
     "lodash.omit": "^4.5.0",
     "lodash.xor": "^4.5.0",
     "quill-icons": "^1.5.0"
-  }
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ]
 }
