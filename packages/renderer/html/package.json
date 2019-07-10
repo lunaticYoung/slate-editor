@@ -22,5 +22,6 @@
     "@young/slate-icon-shared": "^1.0.0",
     "@young/slate-icon-video": "^1.0.0",
     "lodash.mapvalues": "^4.6.0"
-  }
+  },
+  "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"
 }

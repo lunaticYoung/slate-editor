@@ -39,5 +39,6 @@
     "is-hotkey": "^0.1.4",
     "react-window-detect-dimensions": "^0.2.0",
     "styled-components": "^4.3.2"
-  }
+  },
+  "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"
 }

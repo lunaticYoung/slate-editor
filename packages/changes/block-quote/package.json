@@ -16,5 +16,6 @@
   "dependencies": {
     "@young/slate-constant": "^1.0.0",
     "slate-edit-blockquote": "^0.6.1"
-  }
+  },
+  "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"
 }

@@ -21,5 +21,6 @@
     "@young/slate-icon-shared": "^1.0.0",
     "@young/slate-util-have": "^1.0.0",
     "is-hotkey": "^0.1.2"
-  }
+  },
+  "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"
 }

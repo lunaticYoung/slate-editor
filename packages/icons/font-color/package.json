@@ -25,5 +25,6 @@
     "hex-rgb": "^4.1.0",
     "lodash.omit": "^4.5.0",
     "rc-color-picker": "^1.2.6"
-  }
+  },
+  "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"
 }

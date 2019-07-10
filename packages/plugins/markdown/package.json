@@ -25,5 +25,6 @@
     "slate-prism": "^0.5.0",
     "slate-soft-break": "^0.9.0",
     "styled-components": "^4.3.2"
-  }
+  },
+  "gitHead": "aa77a70674182694388ba14ba18b28a8e7749b3b"
 }
